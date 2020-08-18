@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import theImage from './image1.png';
+import './style.css';
+import Video from './video';
 
-function App() {
+
+function App(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div style={{border:"solid 1px black", maxWidth:'100vw'}}>
+    <h1 className="title">My first react project:</h1><br/>
+    <img src={theImage} className='img' alt="im1"/><br/>
+    <img src="/image2.jpg" className='img' alt="im2" /> <br/>
+    <Video />
+  </div>
   );
-}
-
+  }
 export default App;
+
+ 
+ 
+
+
+
+    

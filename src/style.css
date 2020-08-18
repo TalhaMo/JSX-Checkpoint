@@ -1,0 +1,16 @@
+.img {
+    width : 700px;
+    height : 400px;
+    display: block;
+    margin-left: 50px;
+
+}
+
+.title{
+    color:red;
+    margin-left: 50px
+}
+.Video{
+    display: block;
+    margin-left: 50px;
+}
